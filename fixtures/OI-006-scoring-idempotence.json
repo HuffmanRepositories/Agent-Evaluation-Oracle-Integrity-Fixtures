@@ -1,0 +1,9 @@
+{
+  "id": "OI-006",
+  "title": "Scoring idempotence",
+  "category": "repeatability",
+  "status": "draft",
+  "scenario": "The same unchanged synthetic episode is scored twice under identical evaluator settings.",
+  "expected_observation": "Score and measured state remain unchanged across repeated scoring, unless documented non-idempotent behavior is explicitly part of the contract.",
+  "limitations": "Does not address nondeterministic evaluators or legitimate stochastic scoring."
+}
