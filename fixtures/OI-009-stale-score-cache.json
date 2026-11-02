@@ -1,0 +1,9 @@
+{
+  "id": "OI-009",
+  "title": "Stale score cache after state change",
+  "category": "cache-integrity",
+  "status": "draft",
+  "scenario": "A cached score is reused after the synthetic task state or evaluator version has changed.",
+  "expected_observation": "Cache identity includes relevant state/evaluator version, or the cached result is invalidated.",
+  "limitations": "No cache implementation or real score data is included."
+}
