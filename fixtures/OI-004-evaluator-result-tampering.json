@@ -1,0 +1,9 @@
+{
+  "id": "OI-004",
+  "title": "Evaluator result tampering",
+  "category": "result-integrity",
+  "status": "draft",
+  "scenario": "A toy result record is changed after scoring, while the original record and expected digest are retained for comparison.",
+  "expected_observation": "The altered result is detected as inconsistent with the recorded integrity check.",
+  "limitations": "Digest illustration only; does not specify key management or production trust architecture."
+}
