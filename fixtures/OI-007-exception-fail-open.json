@@ -1,0 +1,9 @@
+{
+  "id": "OI-007",
+  "title": "Oracle exception fails open",
+  "category": "failure-handling",
+  "status": "draft",
+  "scenario": "A synthetic oracle throws an exception, and a wrapper mistakenly maps the exception to a passing result.",
+  "expected_observation": "The run is marked indeterminate or failed according to policy; an oracle error must not silently become a pass.",
+  "limitations": "Policy-specific handling may vary; fixture demonstrates one unsafe default."
+}
