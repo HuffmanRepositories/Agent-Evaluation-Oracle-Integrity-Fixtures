@@ -1,0 +1,9 @@
+{
+  "id": "OI-008",
+  "title": "Episode state contamination",
+  "category": "isolation",
+  "status": "draft",
+  "scenario": "A toy evaluation episode leaves a marker in shared state that is visible to the next episode.",
+  "expected_observation": "Episode isolation/reset checks detect the marker or prevent it from being visible across episode boundaries.",
+  "limitations": "Simplified in-memory state; not a container or sandbox isolation test."
+}
