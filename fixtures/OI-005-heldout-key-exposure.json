@@ -1,0 +1,9 @@
+{
+  "id": "OI-005",
+  "title": "Held-out answer material exposure",
+  "category": "confidentiality-boundary",
+  "status": "draft",
+  "scenario": "A toy evaluation manifest accidentally marks a held-out answer field as visible to the agent-facing context.",
+  "expected_observation": "The fixture flags the visibility mismatch; held-out material must remain outside the agent-visible input.",
+  "limitations": "Metadata-only example; no actual answer key is present."
+}
