@@ -1,0 +1,9 @@
+{
+  "id": "OI-010",
+  "title": "Scorer side effect repeated on retry",
+  "category": "state-integrity",
+  "status": "draft",
+  "scenario": "A toy evaluation runner retries scoring after a timeout, and each scorer attempt performs an unintended state mutation.",
+  "expected_observation": "Retry behavior does not multiply scoring side effects; scoring remains isolated or mutations are detected.",
+  "limitations": "Synthetic retry model; does not prescribe production retry semantics."
+}
