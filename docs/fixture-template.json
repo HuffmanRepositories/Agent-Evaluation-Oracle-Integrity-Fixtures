@@ -1,0 +1,9 @@
+{
+  "id": "OI-XXX",
+  "title": "Short fixture title",
+  "category": "oracle-integrity",
+  "status": "draft",
+  "scenario": "Synthetic, offline scenario description.",
+  "expected_observation": "Expected observable outcome.",
+  "limitations": "What this fixture does not establish."
+}
