@@ -1,0 +1,9 @@
+{
+  "id": "OI-001",
+  "title": "Scorer mutates measured state",
+  "category": "state-integrity",
+  "status": "draft",
+  "scenario": "A toy evaluator scores a task by reading a counter, but its scoring path also increments that counter.",
+  "expected_observation": "Repeated scoring changes the measured state; the fixture should flag the scoring side effect as a violation of the declared read-only scoring contract.",
+  "limitations": "Toy state only; no real benchmark code or environment is included."
+}
