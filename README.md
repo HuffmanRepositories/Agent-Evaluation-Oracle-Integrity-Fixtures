@@ -1,6 +1,6 @@
 # Agent Evaluation Oracle Integrity Fixtures
 
-[Start here](START-HERE.md) · [AI agent guidance](AGENTS.md)
+[Start here](START-HERE.md) · [Whitepaper](WHITEPAPER.md) · [AI agent guidance](AGENTS.md)
 
 
 A small, synthetic fixture corpus for reviewing integrity properties of agent evaluations and benchmark scoring.
