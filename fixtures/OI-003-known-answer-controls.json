@@ -1,0 +1,9 @@
+{
+  "id": "OI-003",
+  "title": "Positive and negative known-answer controls",
+  "category": "control-cases",
+  "status": "draft",
+  "scenario": "A synthetic scorer is given one known-positive state and one known-negative state.",
+  "expected_observation": "The positive control passes and the negative control fails; reversed behavior indicates a likely evaluator defect.",
+  "limitations": "The fixture contains no hidden or real benchmark answer key."
+}
