@@ -1,0 +1,9 @@
+{
+  "id": "OI-002",
+  "title": "Self-reported success disagrees with oracle",
+  "category": "oracle-independence",
+  "status": "draft",
+  "scenario": "An agent returns a success message while the independent toy state predicate remains false.",
+  "expected_observation": "The result is scored from the independent oracle state, not the agent's claim.",
+  "limitations": "Illustrates one simple boolean task; not a general task-verification method."
+}
